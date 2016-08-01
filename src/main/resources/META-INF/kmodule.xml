@@ -1,0 +1,5 @@
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+    <kbase name="ws.salient.luis" packages="ws.salient.luis,ws.salient.chat" eventProcessingMode="stream">
+        <ksession name="ws.salient.luis.session" type="stateful" default="true"/>
+    </kbase>
+</kmodule>
